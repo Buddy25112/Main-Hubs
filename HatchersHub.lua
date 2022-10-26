@@ -19,7 +19,7 @@ Thanks for using My hub! :D
 if game.PlaceId == 6284583030 or game.PlaceId == 7722306047 or game.PlaceId == 10321372166 then -- Pet Simulator X
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/Buddy25112/PetHatchers/main/PSXPetHatcher.lua"),true))()
 elseif game.PlaceId == 9551640993 then -- Mining Simulator 2
-    -- Coming Soon!
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Buddy25112/ms2script/main/MS2ReconnectScript.lua"),true))()
 else
 	game.Players.LocalPlayer:Kick("Error while trying to load Hatcher's Hub.\n\nThis game is not supported.\n\nPlease join a supported game.")
 end
